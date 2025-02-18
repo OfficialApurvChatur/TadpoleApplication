@@ -6,7 +6,7 @@ const APIBase = (props) => {
     const configuration = {
         method: props.method,
         url: props.url,
-        baseURL: import.meta.env.VITE_ENVIRONMENT === "Production" ? "https://soup-tadpole-backend.onrender.com" : "http://localhost:8000",
+        baseURL: import.meta.env.VITE_ENVIRONMENT === "Production" ? "https://backend-for-tadpole-application.onrender.com" : "http://localhost:8000",
         headers: { 
             'Content-Type': 'application/json',
         },
